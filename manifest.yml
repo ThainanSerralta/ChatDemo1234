@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ChatDemo1234
+  host: ChatDemo1234
+  disk_quota: 1024M
+  services:
+  - Conversation-53
+  - availability-monitoring-auto
